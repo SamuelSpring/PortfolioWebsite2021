@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+   }
+body{
+    margin:0;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color:#6699cc;
+    line-height: 1.6;
+   
+}
+
+#showcase{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-image:url(../img/codingStockIIMG4.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#showcase .topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(244,244,244, 0.9);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+   
+  }
+  
+  .topnav a {
+    float: left;
+    color: #6699cc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    
+  }
+
+  .topnav a:hover {
+    background-color: #a0c9f1;
+    color: #f4f4f4;
+  }
+  
+  
+
+  #showcase h1{
+    color: black;
+    font-size: 64px;
+    line-height: 1.2;
+    border:#a0c9f1 2px solid;
+    padding:5px 10px;
+    background-color: rgba(244,244,244, 0.8);
+    
+}
+#showcase p{
+    color: black;
+    font-size: 20px;
+    border:#f4f4f4 1px solid;
+    padding:5px 10px;
+    background-color: rgba(244,244,244, 0.8);
+    
+    float:left;
+}
+
+#showcase .button2 {
+    font-size: 32px;
+    text-decoration: none;
+    color:white;
+    border:#a0c9f1 2px solid;
+    padding:10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;   
+}  
+#showcase .button2:hover{
+    background: #6699cc;
+    color:aliceblue;
+}
+footer{
+    padding:1px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+@keyframes fadeInAnimation {
+    from{
+     opacity: 0;
+     
+    }
+    to{
+     opacity: 1;
+     
+    }
+ }
+ .container{
+     animation: fadeInAnimation 0.75s;
+ }
+ 
+ #samPicture{
+     padding-left: 10px;
+     padding-bottom: 5px;
+     border:#6699cc 1px solid;
+ }
