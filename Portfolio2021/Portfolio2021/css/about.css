@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+   }
+body{
+    margin:0;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    color:#6699cc;
+    line-height: 1.6;
+   
+}
+
+#showcase{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    background-image:url(../img/codingStockIMG5.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+#showcase .topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.75);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+ #showcase .container{
+     margin: 0;
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
+  
+ .topnav a {
+    float: left;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .topnav a:hover {
+    background-color: #969696;
+    color: #f4f4f4;
+  }
+  
+  
+
+#showcase h1{
+    color: #f4f4f4;
+    font-size: 72px;
+    line-height: 0;
+    padding:5px 10px;
+    display:flex;
+    align-self: flex-start;
+    animation: moveTextAnimation 1.5s;
+    
+    
+}
+#showcase p{
+   
+    display: inline-block;
+    margin-top: -10px;
+    margin-left: 30px;
+    color: WHITE;
+    font-size: 20px;
+    padding:5px 10px;
+    text-align: justify;
+  text-justify: inter-word;
+  width:50%;
+  display: block;
+  
+
+}
+
+
+#showcase .button {
+    font-size: 32px;
+    text-decoration: none;
+    color:white;
+    border:#969696 2px solid;
+    padding:10px 20px;
+    border-radius: 10px;
+    align-items: center;
+    transition: background-color 0.2s linear;
+   
+    
+}
+#showcase .button2 {
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+    border:#969696 2px solid;
+    padding:10px 30px;
+    border-radius: 32px;
+    transition: background-color 0.2s linear;
+}
+#showcase .button:hover{
+    color:aliceblue;
+    background-color: #363636; 
+}
+#showcase .button2:hover{
+    color:aliceblue;
+    background-color: #363636; 
+}
+footer{
+    padding:1px;
+    color:black;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+@keyframes fadeInAnimation {
+    from{
+     opacity: 0;
+     
+    }
+    to{
+     opacity: 1;
+     
+    }
+ }
+ @keyframes moveTextAnimation {
+    from{
+     transform: translateY(-25px);
+     
+    }
+    to{
+    transform: translateY(0px);
+     
+    }
+ }
+ .container{
+     animation: fadeInAnimation 0.75s;
+ }
+ 
+ #samPicture{
+     padding-left: 10px;
+     padding-bottom: 5px;
+     border:#6699cc 1px solid;
+ }
